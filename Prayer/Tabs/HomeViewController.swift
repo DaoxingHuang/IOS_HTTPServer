@@ -35,7 +35,7 @@ class HomeViewController:UIViewController {
     override func viewDidLoad() {
         view.backgroundColor = .white;
         view.addSubview(web)
-        web.load(URLRequest(url: URL(string: "http://127.0.0.1:5500/index.html")!))
+        web.load(URLRequest(url: URL(string: "https://www.baidu.com")!))
         
         web.configuration.userContentController.add(MyHander(block: { [weak self] message in
             self?.openImagePicker()
