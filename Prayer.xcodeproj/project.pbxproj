@@ -28,6 +28,7 @@
 		3005678528B12180008924F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3005678728B121A1008924F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3005678928B121C0008924F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		300567AF28B31795008924F7 /* t1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = t1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		3005677028B11FFC008924F7 /* Prayer */ = {
 			isa = PBXGroup;
 			children = (
+				300567AE28B31786008924F7 /* StaticResource */,
 				3005677128B11FFC008924F7 /* AppDelegate.swift */,
 				3005677528B11FFC008924F7 /* RootViewController.swift */,
 				3005678B28B13DAA008924F7 /* Tabs */,
@@ -79,6 +81,14 @@
 				3005678928B121C0008924F7 /* MapViewController.swift */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		300567AE28B31786008924F7 /* StaticResource */ = {
+			isa = PBXGroup;
+			children = (
+				300567AF28B31795008924F7 /* t1.html */,
+			);
+			path = StaticResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

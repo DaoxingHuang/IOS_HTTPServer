@@ -19,6 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         UINavigationBar.appearance().barTintColor = .blue
         
+        print(NSHomeDirectory() + "Libri/")
+        
+        let htmlPath =  Bundle.main.path(forResource: "t1", ofType: "html");
+        let toPath = NSHomeDirectory()+"/TEST";
+        
+        
+        
+        try? FileManager.default.createDirectory(atPath: toPath, withIntermediateDirectories: true, attributes: nil)
+        try? FileManager.default.moveItem(atPath: htmlPath!, toPath: toPath + "/t1.html")
+        
         return true
     }
 }
