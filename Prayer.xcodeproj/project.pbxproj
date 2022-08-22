@@ -45,6 +45,11 @@
 		3005676528B11FFC008924F7 = {
 			isa = PBXGroup;
 			children = (
+				300567B328B3DBE2008924F7 /* Frameworks */,
+				300567B228B3DBAB008924F7 /* JSAPI */,
+				300567AE28B31786008924F7 /* StaticResource */,
+				300567B128B3D457008924F7 /* Shell */,
+				300567B028B3D3C6008924F7 /* Apps */,
 				3005677028B11FFC008924F7 /* Prayer */,
 				3005676F28B11FFC008924F7 /* Products */,
 			);
@@ -61,14 +66,6 @@
 		3005677028B11FFC008924F7 /* Prayer */ = {
 			isa = PBXGroup;
 			children = (
-				300567AE28B31786008924F7 /* StaticResource */,
-				3005677128B11FFC008924F7 /* AppDelegate.swift */,
-				3005677528B11FFC008924F7 /* RootViewController.swift */,
-				3005678B28B13DAA008924F7 /* Tabs */,
-				3005677728B11FFC008924F7 /* Main.storyboard */,
-				3005677A28B11FFD008924F7 /* Assets.xcassets */,
-				3005677C28B11FFD008924F7 /* LaunchScreen.storyboard */,
-				3005677F28B11FFD008924F7 /* Info.plist */,
 			);
 			path = Prayer;
 			sourceTree = "<group>";
@@ -89,6 +86,41 @@
 				300567AF28B31795008924F7 /* t1.html */,
 			);
 			path = StaticResource;
+			sourceTree = "<group>";
+		};
+		300567B028B3D3C6008924F7 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		300567B128B3D457008924F7 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				3005677F28B11FFD008924F7 /* Info.plist */,
+				3005677A28B11FFD008924F7 /* Assets.xcassets */,
+				3005677C28B11FFD008924F7 /* LaunchScreen.storyboard */,
+				3005677728B11FFC008924F7 /* Main.storyboard */,
+				3005678B28B13DAA008924F7 /* Tabs */,
+				3005677128B11FFC008924F7 /* AppDelegate.swift */,
+				3005677528B11FFC008924F7 /* RootViewController.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		300567B228B3DBAB008924F7 /* JSAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSAPI;
+			sourceTree = "<group>";
+		};
+		300567B328B3DBE2008924F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +350,11 @@
 				DEVELOPMENT_TEAM = V9D736XT2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Prayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "如愿";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,9 +380,11 @@
 				DEVELOPMENT_TEAM = V9D736XT2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Prayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "如愿";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
